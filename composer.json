@@ -1,0 +1,25 @@
+{
+    "name": "wb7/tether-component",
+    "description": "Clone of hubspot/tether as a component",
+    "type": "library",
+    "homepage": "https://github.com/wb7/tether-component",
+    "version": "1.4.0",
+    
+    "require": {
+		"robloach/component-installer": "*"
+    },  
+	"extra": {
+        "component": {
+            "scripts": [
+                "js/tether.js"
+            ],
+            "styles": [
+                "css/tether.css"
+            ],
+            "files": [
+                "js/tether.min.js",
+                "css/tether.min.css"
+            ]
+        }
+    }
+} 
